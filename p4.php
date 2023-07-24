@@ -31,7 +31,7 @@ if ($check_array) {
 } else {
     echo 'Try Again<br>';
 }
-$check_null =null;
+$check_null = null;
 echo 'Checking NULL: <br>';
 if ($check_null) {
     echo 'Success<br>';

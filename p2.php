@@ -2,12 +2,12 @@
 //Data types and typecasting
 declare(strict_types=1);
 
-$age = 20; //int
+$age = 21; //int
 $name = 'Aman Kumar'; //Name
-$exact_age = 20.3; //float
+$exact_age = 21.3; //float
 $boolean_val = true; //bool
 $fav_food = array('Paneer','Rice','Dosa','Pizza', 21); // Array
-$fav_football_player = "Neymar"; //null
+$fav_football_player = NULL; //null
 
 echo 'age : '.$age.'<br>';
 echo 'name : '.$name.'<br>';
@@ -21,11 +21,12 @@ echo "<br> Now prinitng the data types : <br>";
 echo '<br>data type of age : ';
 echo gettype($age);
 
-echo '<br> Data type of exact age : <br>';
+echo 'Data type of exact age : <br>';
+
 echo var_dump($exact_age);
 
 
-//typecasting
+//Lets play with typecasting
 
 
 function sum(float $x, float $y)

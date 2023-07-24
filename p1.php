@@ -2,7 +2,7 @@
 //Learning about variable and constants
 
 $my_name = 'Aman Kumar';
-$my_name = 'kumar Aman';
+$my_name = 'Kumar Aman';
 echo $my_name;
 
 //using define finction
